@@ -31,3 +31,25 @@
     transform: rotate(360deg);
   }
 }
+
+.navBar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBar p{
+  color: rgba(23, 57, 165, 0.735);
+  font-family: Montserrat;
+  font-size: 3rem;  
+}
+
+
+#logoImg{
+  position: fixed;
+  top: 0px ;
+  left: 0px;
+  order: -1;
+  width: 200px;
+  height: 100px;
+}
