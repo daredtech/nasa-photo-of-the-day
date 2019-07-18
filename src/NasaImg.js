@@ -8,10 +8,11 @@ const NasaImg = (props) => {
 
     return(
         <div className = "nasa-img">
-        {/* <img src={imgUrl} alt='nasa-img'/> */}
+        <img src={testing} alt='nasa-img'/>
         {/* {testing} */}
-        <Iframe url={testing} alt='nasa-video'/>  
-        {/* I am the text after the video */}
+        {/* for videos: */}
+        {/* <Iframe src={testing} alt='nasa-video'/>   */}
+        
         </div>
     );
  
