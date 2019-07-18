@@ -38,15 +38,17 @@
   align-items: center;
 }
 
-.navBar p{
-  /* color: rgba(23, 57, 165, 0.735);
-  font-family: Montserrat;
-  font-size: 3rem;   */
-}
-
 #logoImg{
   display: flex;
-  /* order: -1; */
   width: 200px;
   height: 100px;
+}
+
+.img-holder{
+  padding: 1%;
+  margin-bottom: 2%;
+}
+
+.nasa-card{
+  padding-bottom: 10%;
 }

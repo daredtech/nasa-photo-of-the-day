@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import axios from "axios";
 import NasaImg from "./NasaImg"
+import styled from "styled-components";
 
 
 const NasaCard = () => {
@@ -22,11 +23,19 @@ const NasaCard = () => {
         })
     }, [imgValue])
 
+    const Link = styled.a`
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #c62d1f;
+    `
+
     return(
 
         <div className='nasa-card'>
-            <div>{imgURl} </div>
-            <NasaImg imgURl={imgURl} imgValue={imgValue}/>
+            <div className='img-holder'>{imgURl}  <NasaImg imgURl={imgURl} imgValue={imgValue}/></div>
+           
+            <Link href="https://www.nasa.gov/"> Courtesy NASA.gov</Link>
+
         </div>
     );
 }
