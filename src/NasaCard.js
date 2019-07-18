@@ -13,11 +13,7 @@ const NasaCard = () => {
         //if successful
         .then(success => {
             console.log('Success');
-            // console.log('Success value: ', success);
-            // const result=success.data.url;
-            // console.log('Result value:', result);
             imgURl = success.data.url;
-            // console.log('IMG URL in THEN', imgURl);
             setImgValue(imgURl);
         })
         //if not successful

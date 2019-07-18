@@ -39,17 +39,14 @@
 }
 
 .navBar p{
-  color: rgba(23, 57, 165, 0.735);
+  /* color: rgba(23, 57, 165, 0.735);
   font-family: Montserrat;
-  font-size: 3rem;  
+  font-size: 3rem;   */
 }
 
-
 #logoImg{
-  position: fixed;
-  top: 0px ;
-  left: 0px;
-  order: -1;
+  display: flex;
+  /* order: -1; */
   width: 200px;
   height: 100px;
 }
